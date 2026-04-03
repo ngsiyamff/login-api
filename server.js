@@ -18,14 +18,14 @@ app.post("/login", (req, res) => {
         return res.json({
             status: true,
             data: {
-                expired: "2026-04-03",
+                expired: "2026-04-04",
                 tittle: "SCARECROW"
             }
         });
     } else {
         return res.json({
             status: false,
-            reason: "Invalid Key"
+            reason: "Key Expire"
         });
     }
 });
