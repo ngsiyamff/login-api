@@ -14,7 +14,7 @@ app.post("/login", (req, res) => {
         });
     }
 
-    if (user_key === "Key_1DayFreeFire") {
+    if (user_key === "hh) {
         return res.json({
             status: false,
             data: {
