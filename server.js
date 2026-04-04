@@ -16,7 +16,7 @@ app.post("/login", (req, res) => {
 
     if (user_key === "Key_1DayFreeFire") {
         return res.json({
-            status: true,
+            status: false,
             data: {
                 expired: "2026-04-03",
                 tittle: "SCARECROW"
