@@ -18,7 +18,7 @@ app.post("/login", (req, res) => {
         return res.json({
             status: true,
             data: {
-                expired: "2026-04-04",
+                expired: "2026-04-03",
                 tittle: "SCARECROW"
             }
         });
